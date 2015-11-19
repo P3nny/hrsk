@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse
-from random import sample
+from random import sample, choice
 
 
 def home(request):
