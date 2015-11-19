@@ -19,5 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^$', 'hrsk.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^new_hrsk/$', 'hrsk.views.generate_new_hrsk ', name='new_signature'),
+    url(r'^new_hrsk/$', 'hrsk.views.generate_new_hrsk', name='new_signature'),
 ]
