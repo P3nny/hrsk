@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse
-from random import sample
+from random import sample, choice
 
 
 def home(request):
@@ -15,9 +15,9 @@ def update_horoskop():
     list_of_first = ['Es könnte sein, dass ',
     'Sei nicht überrascht, wenn ',
     'Es ist gut möglich, dass ',
-    'Die Sterne sagen, dass ', 
-    'Sei darauf gefasstc',
-    'Erwarte reinen Herzens ' 
+    'Die Sterne sagen, dass ',
+    'Sei darauf gefasst ',
+    'Erwarte reinen Herzens '
 ]
 
     list_of_second = ['wenn die Götter Dir gewogen sind',

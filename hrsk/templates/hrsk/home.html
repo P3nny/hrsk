@@ -39,7 +39,7 @@
        <script type="text/javascript">
             $( document ).ready(function() {
                 $(".generate-btn").click(function () {
-                    $.get('/new_signature/', function(data){
+                    $.get('{% url "new_signature" %}', function(data){
                         $('input[name="signature"]').val(data);
                     });
                 });
